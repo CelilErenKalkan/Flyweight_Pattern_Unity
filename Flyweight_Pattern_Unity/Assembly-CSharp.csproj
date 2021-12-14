@@ -55,13 +55,15 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\3D Game Kit - Environment Pack\Models\AIControl.cs" />
     <Compile Include="Assets\CreateWorldPrefab.cs" />
     <Compile Include="Assets\CreateCubeMesh.cs" />
-    <Compile Include="Assets\3D Game Kit - Environment Pack\Models\AIControl.cs" />
     <Compile Include="Assets\Scripts\CameraFollow360.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\WorldManager.cs" />
-    <Compile Include="Assets\SetPlantInfo.cs" />
+    <Compile Include="Assets\Scripts\WorldManager.cs" />
+    <Compile Include="Assets\Scripts\SetPlantInfo.cs" />
+    <Compile Include="Assets\Scripts\PlantData.cs" />
+    <Compile Include="Assets\Scripts\Plant.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\3D Game Kit - Environment Pack\Shaders\Vegetation.shader" />
